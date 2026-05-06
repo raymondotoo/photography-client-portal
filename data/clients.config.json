@@ -1,0 +1,29 @@
+{
+  "site": {
+    "brandName": "Raymond Otoo Photography",
+    "tagline": "Private proofing galleries with a simple, calm client experience.",
+    "intro": "Share a private gallery link, let clients favorite the frames they love, and deliver their finals from the same place when edits are done.",
+    "contactEmail": "",
+    "bookingUrl": "",
+    "homepageHeadline": "Proof, select, and deliver without chasing selections across text messages.",
+    "homepageSubhead": "This starter site is intentionally lightweight: static pages, Google Drive delivery, direct client links, and zero paid backend required to get started."
+  },
+  "clients": [
+    {
+      "name": "Sage + Owen",
+      "slug": "sage-and-owen-a8k3m",
+      "eventType": "Engagement Session",
+      "eventDate": "April 2026",
+      "location": "Phoenix, Arizona",
+      "listOnHomepage": true,
+      "clientNote": "Welcome to your proof gallery. Tap the heart on any image you want edited first. Your choices stay on this device until you copy, download, or email them back.",
+      "selectionInstructions": "Choose your favorites, add any notes, then use the action buttons to send your selections back. Once edits are complete, the finals section becomes your delivery space.",
+      "proofsFolder": "content/clients/demo-sage-and-owen/proofs",
+      "finalsFolder": "content/clients/demo-sage-and-owen/finals",
+      "coverAsset": "content/clients/demo-sage-and-owen/proofs/proof-01.svg",
+      "proofsDriveUrl": "",
+      "finalsDriveUrl": "",
+      "replyEmail": ""
+    }
+  ]
+}

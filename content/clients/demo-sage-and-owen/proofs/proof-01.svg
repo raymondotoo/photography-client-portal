@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Demo proof 01</title>
+  <desc id="desc">Warm sunset style placeholder proof image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3d2b3"/>
+      <stop offset="100%" stop-color="#bf7356"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="865" cy="320" r="185" fill="rgba(255,244,220,0.55)"/>
+  <path d="M120 1200c170-300 355-450 560-450s295 165 400 325v425H120z" fill="rgba(70,45,31,0.22)"/>
+  <text x="110" y="180" fill="#fffaf0" font-family="Georgia, serif" font-size="92">Proof 01</text>
+  <text x="110" y="1320" fill="#fffaf0" font-family="Arial, sans-serif" font-size="38" letter-spacing="10">SAGE + OWEN</text>
+</svg>

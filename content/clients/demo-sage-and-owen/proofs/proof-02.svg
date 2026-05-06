@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Demo proof 02</title>
+  <desc id="desc">Editorial placeholder proof image in sage tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#cfd8c8"/>
+      <stop offset="100%" stop-color="#73836c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect x="165" y="165" width="870" height="1170" rx="44" fill="rgba(255,252,247,0.22)"/>
+  <circle cx="430" cy="640" r="210" fill="rgba(255,250,240,0.48)"/>
+  <circle cx="740" cy="590" r="175" fill="rgba(46,58,41,0.28)"/>
+  <text x="110" y="180" fill="#fffaf0" font-family="Georgia, serif" font-size="92">Proof 02</text>
+  <text x="110" y="1320" fill="#fffaf0" font-family="Arial, sans-serif" font-size="38" letter-spacing="10">GARDEN PORTRAIT</text>
+</svg>

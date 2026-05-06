@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Demo proof 04</title>
+  <desc id="desc">Motion-inspired placeholder proof image with painterly shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ead7c5"/>
+      <stop offset="100%" stop-color="#6d7e74"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <path d="M160 1030c130-340 340-520 612-520 120 0 214 27 309 78v602H160z" fill="rgba(255,251,246,0.26)"/>
+  <path d="M300 930c92-160 196-250 321-250 83 0 160 41 250 130" fill="none" stroke="rgba(56,47,38,0.34)" stroke-width="52" stroke-linecap="round"/>
+  <text x="110" y="180" fill="#fffaf0" font-family="Georgia, serif" font-size="92">Proof 04</text>
+  <text x="110" y="1320" fill="#fffaf0" font-family="Arial, sans-serif" font-size="38" letter-spacing="10">WIND + MOVEMENT</text>
+</svg>
