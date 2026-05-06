@@ -78,12 +78,36 @@ git commit -m "Initial client portal"
 2. Create a GitHub repo and push from VS Code or terminal.
 3. In Cloudflare Pages:
    - Connect the GitHub repo
+   - Choose `Import an existing Git repository`
+   - Select `raymondotoo/photography-client-portal`
+   - Production branch: `main`
+   - Root directory: leave blank
    - Build command: `npm run build`
    - Build output directory: `dist`
+   - Node version: leave default unless you want to pin one later
 4. Every time you add images or update config:
    - run `npm run build`
    - commit
    - push
+
+## Cloudflare Pages quick connect
+
+This repository now includes `wrangler.jsonc` with the Pages project name and build output directory:
+
+- Project name: `photography-client-portal`
+- Build output directory: `dist`
+
+That means the Cloudflare side should be a simple dashboard setup:
+
+1. Go to Cloudflare `Workers & Pages`.
+2. Select `Create application`.
+3. Select `Pages`.
+4. Select `Import an existing Git repository`.
+5. Connect GitHub if Cloudflare asks.
+6. Choose `raymondotoo/photography-client-portal`.
+7. Confirm the build settings above and deploy.
+
+Once the first deploy succeeds, every push to `main` will rebuild the site automatically.
 
 ## Config fields
 
